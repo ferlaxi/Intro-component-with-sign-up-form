@@ -10,4 +10,4 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
 
 ## Links
 - Frontend Mentor - [@ferlaxi](https://www.frontendmentor.io/profile/ferlaxi)
-- Live Site URL: [Intro component with sign up form solution]()🌐
+- Live Site URL: [Intro component with sign up form solution](https://ferlaxi.github.io/Intro-component-with-sign-up-form/)🌐
