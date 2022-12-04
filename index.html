@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro component with sign-up form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <div class="title">Aprende a programar observando a los demás</div>
+    <div class="description">Vea cómo los desarrolladores experimentados resuelven problemas en tiempo real. Ver tutoriales con scripts es genial, pero comprender cómo piensan los desarrolladores es invaluable.</div>
+    <div class="offer">
+        <div class="offer1">Pruébelo gratis 7 días</div>
+        <div class="offer2">luego $20/mes a partir de entonces</div>
+    </div>
+    <form action="#" class="formulario">
+        <input type="text" id="nombre" placeholder="Nombre" class="name">
+        <img src="images/icon-error.svg" alt="error" class="errornameImg">
+        <div class="errorname" id="errorname">Nombre no puede estar vacío</div>
+        <input type="text" id="apellido" placeholder="Apellido" class="lastname">
+        <img src="images/icon-error.svg" alt="error" class="errorlastnameImg">
+        <div class="errorlastname">Apellido no puede estar vacío</div>
+        <input type="text" id="correo" placeholder="Correo" class="correo">
+        <img src="images/icon-error.svg" alt="error" class="errorcorreoImg">
+        <div class="errorcorreo">Ingrese un correo válido</div>
+        <input type="password" name="pw" id="pw" placeholder="Contraseña" class="pw">
+        <img src="images/icon-error.svg" alt="error" class="errorpwImg">
+        <div class="errorpw">Ingrese una contraseña válida</div>
+        <a href="#" class="reclamar" id="boton">RECLAMA TU PRUEBA GRATUITA</a>
+        <div class="leyenda1">Al hacer clic en el botón, usted está aceptando nuestro</div>
+        <a href="#" class="leyenda2">Términos y Servicios</a>
+    </form>
+</body>
+<script src="js/main.js"></script>
+</html>

@@ -1,0 +1,429 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(0, 100%, 74%);
+    background-image: url(images/bg-intro-desktop.png);
+}
+
+.title{
+    position: absolute;
+    left: 15%;
+    top: 35%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 45px;
+    width: 600px;
+    line-height: 60px;
+}
+
+.description{
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    width: 600px;
+    line-height: 25px
+}
+
+.offer{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    padding: 20px 25px 20px 25px;
+    left: 60%;
+    top: 13%;
+    background-color: hsl(248, 32%, 49%);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    border-radius: 10px; 
+    width: 540px;
+    font-weight: bold;
+    box-shadow: 0px 8px 1px rgba(0, 0, 0, 0.151);
+}
+
+.offer2{
+    font-weight:lighter;
+    margin-left: 5px;
+}
+
+.formulario{
+    position: absolute;
+    left: 60%;
+    top: 25%;
+    background-color: white;
+    width: 540px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 1px rgba(0, 0, 0, 0.151);
+}
+
+::placeholder{
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Nombre */
+.name{
+    position: absolute;
+    width: 480px;
+    left: 30px;
+    top: 40px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid hsl(0, 3%, 85%);
+    font-family: 'Poppins', sans-serif;
+}
+
+.name:focus{
+    outline: none;
+    border:1px solid hsl(249, 10%, 26%)
+}
+
+.errorname{
+    margin-top: 104px;
+    margin-left: 355px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    color: hsl(0, 100%, 74%);
+    font-style: italic;
+    font-weight: bold;
+    visibility: hidden;
+}
+
+.errorLine{
+    border: 2px solid hsl(0, 100%, 74%);
+}
+
+.errornameImg{
+    position: absolute;
+    left: 470px;
+    top: 58px;
+    visibility: hidden;
+}
+
+.placehide::placeholder{
+    color:transparent
+}
+
+
+
+
+
+/* Apellido */
+.lastname{
+    position: absolute;
+    width: 480px;
+    left: 30px;
+    top: 120px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid hsl(0, 3%, 85%);
+    font-family: 'Poppins', sans-serif;
+}
+
+.lastname:focus{
+    outline: none;
+    border:1px solid hsl(249, 10%, 26%)
+}
+
+.errorlastname{
+    position: absolute;
+    margin-top: 64px;
+    margin-left: 355px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    color: hsl(0, 100%, 74%);
+    font-style: italic;
+    font-weight: bold;
+    visibility: hidden;
+}
+
+.errorline2{
+    border: 2px solid hsl(0, 100%, 74%);
+}
+
+.errorlastnameImg{
+    position: absolute;
+    left: 470px;
+    top: 136px;
+    visibility: hidden;
+}
+
+
+
+
+/* Correo */
+.correo{
+    position: absolute;
+    width: 480px;
+    left: 30px;
+    top: 200px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid hsl(0, 3%, 85%);
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.correo:focus{
+    outline: none;
+    border:1px solid hsl(249, 10%, 26%)
+}
+
+
+.errorcorreo{
+    position: absolute;
+    margin-top: 145px;
+    margin-left: 380px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    color: hsl(0, 100%, 74%);
+    font-style: italic;
+    font-weight: bold;
+    visibility: hidden;
+}
+
+.errorline3{
+    border: 2px solid hsl(0, 100%, 74%);
+}
+
+.errorcorreoImg{
+    position: absolute;
+    left: 470px;
+    top: 218px;
+    visibility: hidden;
+}
+
+.correoenrojo{
+    color: hsl(0, 100%, 74%);
+}
+
+
+
+/* Contrasenia */
+.pw{
+    position: absolute;
+    width: 480px;
+    left: 30px;
+    top: 280px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid hsl(0, 3%, 85%);
+}
+
+.pw:focus{
+    outline: none;
+    border:1px solid hsl(249, 10%, 26%)
+}
+
+
+.errorpw{
+    position: absolute;
+    margin-top: 222px;
+    margin-left: 350px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    color: hsl(0, 100%, 74%);
+    font-style: italic;
+    font-weight: bold;
+    visibility: hidden;
+}
+
+.errorline4{
+    border: 2px solid hsl(0, 100%, 74%);
+}
+
+.errorpwImg{
+    position: absolute;
+    left: 470px;
+    top: 298px;
+    visibility: hidden;
+}
+
+
+
+
+/* Boton Main */
+.reclamar{
+    position: absolute;
+    padding: 20px 70px 20px 135px;
+    background-color: hsl(154, 59%, 51%);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    border-radius: 10px;
+    top: 360px;
+    left: 30px;
+    width: 480px;
+    text-decoration: none;
+    box-shadow: 0px 4px 1px hsl(154, 54%, 47%);
+    transition: all .3s;
+}
+
+.reclamar:hover{
+    background-color: hsla(154, 59%, 51%, 0.678);
+}
+
+
+
+/* Lienas finales */
+.leyenda1{
+    position: absolute;
+    top: 440px;
+    left: 75px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    color: hsl(246, 25%, 77%);
+}
+
+.leyenda2{
+    position: absolute;
+    top: 440px;
+    left: 355px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: hsl(0, 100%, 74%) ;
+}
+
+
+
+/* 1440px Size */
+@media (max-width: 1440px){
+    .title{
+        left: 7%;
+    }
+
+    .description{
+        left: 7%;
+    }
+
+    .formulario{
+        left: 55%;
+    }
+    
+    .offer{
+        left: 55%;
+    }
+}
+
+
+/* 375px Size */
+@media (max-width: 375px){
+    .title{
+        left: 10%;
+        top: 12%;
+        font-size: 20px;
+        width: 300px;
+        line-height: 25px;
+        text-align: center;
+    }
+
+    .description{
+        left: 10%;
+        top: 22%;
+        width: 300px;
+        font-size: 13px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .offer{
+        padding: 10px 25px 10px 25px;
+        left: 5%;
+        top: 40%;
+        width: 340px;
+        flex-wrap: wrap;
+    }
+
+    .offer2{
+        text-align: center;
+    }
+
+    .formulario{
+        left: 5%;
+        top: 60%;
+        width: 340px;
+        height: 490px;
+    }
+
+    .name{
+        width: 285px;
+        padding: 15px;
+    }
+    
+    .errorname{
+        margin-top: 98px;
+        margin-left: 160px;
+        font-size: 10px;
+    }
+
+    .errornameImg{
+        left: 270px;
+    }
+
+    .lastname{
+        width: 285px;
+        padding: 15px;
+    }
+
+    .errorlastname{
+        margin-left: 160px;
+    }
+
+    .errorlastnameImg{
+        left: 270px;
+    }
+
+    .correo{
+        width: 285px;
+        padding: 15px;
+    }
+
+    .errorcorreo{
+        margin-left: 185px;
+    }
+
+    .errorcorreoImg{
+        top: 217px;
+        left: 270px;
+    }
+
+    .pw{
+        width: 285px;
+        padding: 15px;
+    }
+
+    .errorpw{
+        margin-left: 154px;
+    }
+
+    .errorpwImg{
+        top: 292px;
+        left: 270px;
+    }
+
+    .reclamar{
+        padding: 20px 15px 20px 50px;
+        width: 285px;
+        font-size: 13px;
+    }
+
+    .leyenda1{
+        text-align: center;
+        left: 35px;
+    }
+
+    .leyenda2{
+        top: 455px;
+        left: 120px;
+    }
+    
+}
